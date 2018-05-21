@@ -27,7 +27,7 @@
     <div class="row">
         <div class="col">
 
-            <h1 class="h1 my-3 app-title">PRODUCTS STORE</h1>
+            <h1 class="h1 my-3 app-title">STORE</h1>
             <hr/>
 
         </div>
@@ -43,6 +43,9 @@
                 <div class="col">
                     <p>
                         Copyright @ <strong>Coalition Technologies</strong> 2018
+                    </p>
+                    <p>
+                        Developed by <u>Alban Afmeti</u>
                     </p>
                 </div>
             </div>

@@ -25,7 +25,7 @@
                     <th scope="row">{{ product.id }}</th>
                     <td>{{ product.name }}</td>
                     <td>{{ product.quantity }}</td>
-                    <td>{{ product.price }}</td>
+                    <td>{{ product.price }} $</td>
                     <td>{{ product.created_at }}</td>
                     <td>{{ product.total_value }}</td>
                     <td>
@@ -46,7 +46,7 @@
                     <th></th>
                     <th></th>
                     <th></th>
-                    <th>{{ totalValueSum }}</th>
+                    <th>{{ totalValueSum }} $</th>
                     <th></th>
                 </tr>
                 </tbody>

@@ -19,7 +19,12 @@
         </div>
         <div class="form-group">
             <label>Price per item</label>
-            <input type="number" name="price" class="form-control" placeholder="Price" v-model="product.price"/>
+            <div class="input-group">
+                <input type="number" name="price" class="form-control" placeholder="Price" v-model="product.price"/>
+                <div class="input-group-append">
+                    <span class="input-group-text">$</span>
+                </div>
+            </div>
         </div>
         <p class="text-right">
             <button type="button" class="btn btn-primary" title="Add" :disabled="is_loading"
