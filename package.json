@@ -20,7 +20,6 @@
         "vue": "^2.5.7"
     },
     "dependencies": {
-        "@noisim/tabvuelar": "^1.0.3",
         "toastr": "^2.1.4",
         "vue-events": "^3.1.0",
         "vue-spinner": "^1.0.3",

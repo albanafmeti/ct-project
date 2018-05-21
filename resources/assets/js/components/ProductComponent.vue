@@ -35,7 +35,12 @@
                             class="fa fa-times"></span></a>
                     </td>
                 </tr>
-                <tr class="bg-primary text-light">
+                <tr v-if="!products.length">
+                    <td colspan="7">
+                        <p class="text-center m-0">No products listed.</p>
+                    </td>
+                </tr>
+                <tr v-if="products.length" class="bg-primary text-light">
                     <th scope="row">#</th>
                     <th>TOTAL</th>
                     <th></th>
